@@ -16,25 +16,30 @@ chọn tệp `NEXA-Shot_x.y.z_x64-setup.exe`.
    chứng chỉ ký mã thương mại — không phải do có virus. Chỉ chạy bộ cài tải
    từ đúng trang này.
 3. Cài đặt không cần quyền quản trị (cài cho tài khoản hiện tại).
-4. Mở **NEXA Shot**: biểu tượng chữ X vàng xuất hiện ở khay hệ thống (góc
-   phải thanh tác vụ, có thể nằm trong mũi tên ^).
-5. Vào **Cài đặt** (biểu tượng bánh răng) → bật **Khởi động cùng Windows**.
+4. Xong. NEXA Shot **chạy ngầm ở khay hệ thống** giống Lightshot (biểu tượng
+   chữ X vàng ở góc phải thanh tác vụ, có thể nằm trong mũi tên ^), **tự khởi
+   động cùng Windows** và không mở cửa sổ nào. Lần đầu sẽ có một thông báo
+   Windows báo app đang chạy.
+5. Muốn xem cài đặt: chuột phải biểu tượng ở khay → **Mở NEXA Shot**
+   (hoặc mở lại app từ Start menu) → biểu tượng bánh răng.
 
 ### Dùng hằng ngày
 - **PrintScreen** → kéo chọn vùng → vẽ / gõ chữ → **Ctrl+C** → dán vào Zalo, Word…
-- Nếu panel báo *"Lightshot đang giữ phím PrintScreen"*: chuột phải biểu
-  tượng Lightshot ở khay → **Exit** (hoặc gỡ Lightshot), rồi bấm **Thử lại**.
+- Rê chuột lên một cửa sổ rồi bấm một lần để chụp đúng cửa sổ đó.
+- Nếu PrintScreen không phản hồi: thoát Lightshot (chuột phải biểu tượng
+  Lightshot ở khay → **Exit**, hoặc gỡ Lightshot), rồi mở NEXA Shot → **Thử lại**.
   Trong lúc đó vẫn chụp được bằng **Ctrl+Shift+S**.
 - Phím công cụ: V chọn · A mũi tên · R hình chữ nhật · T chữ · N đánh số ·
-  B làm mờ · X pixel hoá. **Esc** để thoát.
-- **Tìm ảnh** (Google Lens / Bing / Yandex / TinEye): ảnh được chép vào
-  clipboard và trang tìm kiếm mở ra — nhấn **Ctrl+V** hoặc kéo ảnh vào trang.
-  NEXA Shot không tự tải ảnh lên đâu cả.
+  B làm mờ · X pixel hoá · **O** trích chữ (OCR) · **Ctrl+P** ghim ảnh.
+  **Esc** để thoát. **Ctrl+Shift+H** mở lịch sử ảnh.
+- **Tìm ảnh** (Google Lens / Bing / Yandex / TinEye): bấm là mở thẳng trang kết
+  quả kèm ảnh. Ảnh đi qua link tạm trên máy chủ StarteeX và **tự xoá sau 24
+  giờ**; có thể tắt trong Cài đặt (khi đó tự dán ảnh vào trang).
 
 ### Cập nhật
-Ứng dụng tự kiểm tra bản mới khi khởi động. Khi có bản mới, panel hiện thẻ
-**"Có bản mới"** → bấm **Cập nhật**; ứng dụng tự cài và mở lại. Mỗi bản cập
-nhật được ký số và được kiểm tra trước khi cài.
+Hoàn toàn tự động: khoảng 30 giây sau khi máy khởi động, NEXA Shot kiểm tra
+bản mới, hiện thông báo "Đang cập nhật…", tự cài và tự mở lại (không cắt ngang
+khi đang chụp). Mỗi bản cập nhật được ký số và được kiểm tra trước khi cài.
 
 ### Gỡ cài đặt
 Settings → Apps → **NEXA Shot** → Uninstall. Cài đặt cá nhân được giữ lại.
