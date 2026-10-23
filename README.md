@@ -1,6 +1,6 @@
 # NEXA Shot — bản cài đặt · Releases
 
-Công cụ chụp màn hình và ghi chú của **StarteeX** cho Windows 10/11.
+Công cụ chụp màn hình, ghi chú và **quay video màn hình** của **StarteeX** cho Windows 10/11.
 Trang này chỉ chứa bộ cài và tệp cập nhật; mã nguồn được lưu riêng.
 
 **[⬇ Tải bản mới nhất](https://github.com/Roccat92/nexa-shot-releases/releases/latest)** →
@@ -32,6 +32,12 @@ chọn tệp `NEXA-Shot_x.y.z_x64-setup.exe`.
 - Phím công cụ: V chọn · A mũi tên · R hình chữ nhật · T chữ · N đánh số ·
   B làm mờ · X pixel hoá · **O** trích chữ (OCR) · **Ctrl+P** ghim ảnh.
   **Esc** để thoát. **Ctrl+Shift+H** mở lịch sử ảnh.
+- **Quay video màn hình** (từ 0.5.0): nhấn **Shift+PrintScreen** → kéo chọn vùng
+  (hoặc bấm vào một cửa sổ) → chọn âm thanh (không tiếng / âm thanh máy / micro /
+  cả hai) → **Bắt đầu quay**. Khung đỏ cho biết vùng đang quay; thanh nhỏ có
+  tạm dừng, dừng, huỷ. Nhấn lại Shift+PrintScreen để dừng. Video MP4 lưu trong
+  **Videos\NEXA Shot** và được sao chép sẵn — **Ctrl+V** để gửi qua Zalo, email.
+  Khung đỏ và thanh điều khiển không lọt vào video.
 - **Tìm ảnh** (Google Lens / Bing / Yandex / TinEye): bấm là mở thẳng trang kết
   quả kèm ảnh. Ảnh đi qua link tạm trên máy chủ StarteeX và **tự xoá sau 24
   giờ**; có thể tắt trong Cài đặt (khi đó tự dán ảnh vào trang).
@@ -53,3 +59,6 @@ Settings → Apps → **NEXA Shot** → Uninstall. Cài đặt cá nhân đượ
    anyway** (the installer is not commercially code-signed yet).
 3. No admin rights needed. Press **PrintScreen** (or **Ctrl+Shift+S**) to
    capture, **Ctrl+C** to copy. Updates install from inside the app.
+4. **Screen recording** (0.5.0+): **Shift+PrintScreen** → select an area →
+   choose the sound → **Start recording**; press it again to stop. The MP4 is
+   saved in Videos\NEXA Shot and copied — **Ctrl+V** to send it.
