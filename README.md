@@ -38,6 +38,15 @@ chọn tệp `NEXA-Shot_x.y.z_x64-setup.exe`.
   tạm dừng, dừng, huỷ. Nhấn lại Shift+PrintScreen để dừng. Video MP4 lưu trong
   **Videos\NEXA Shot** và được sao chép sẵn — **Ctrl+V** để gửi qua Zalo, email.
   Khung đỏ và thanh điều khiển không lọt vào video.
+- **Tách vật thể bằng AI** (từ 0.6.0): chọn vùng → nhấn **Q** (hoặc nút ✨) →
+  bấm vào vật thể cần lấy. Bấm thêm để lấy thêm phần, **Alt+bấm** hoặc chuột
+  phải để bỏ bớt. **Ctrl+C** chép vật thể với nền trong suốt, **Ctrl+S** lưu PNG,
+  **Ctrl+P** ghim. Chạy ngay trên máy, không gửi ảnh đi đâu. Lần đầu dùng app tải
+  model AI khoảng 43 MB (một lần duy nhất).
+- **Hỏi AI** (từ 0.6.0): chọn vùng → nhấn **I** (hoặc nút 💬) → chọn **Đây là gì?**,
+  **Mô tả, gợi ý in**, **Dịch chữ**, hoặc gõ câu hỏi riêng. Khi đang tách vật thể có
+  nút "Hỏi AI về vật thể". Ảnh được gửi tới trợ lý AI của StarteeX để trả lời và
+  không được lưu lại; đừng hỏi về ảnh có mật khẩu hay thông tin khách hàng.
 - **Tìm ảnh** (Google Lens / Bing / Yandex / TinEye): bấm là mở thẳng trang kết
   quả kèm ảnh. Ảnh đi qua link tạm trên máy chủ StarteeX và **tự xoá sau 24
   giờ**; có thể tắt trong Cài đặt (khi đó tự dán ảnh vào trang).
@@ -62,3 +71,9 @@ Settings → Apps → **NEXA Shot** → Uninstall. Cài đặt cá nhân đượ
 4. **Screen recording** (0.5.0+): **Shift+PrintScreen** → select an area →
    choose the sound → **Start recording**; press it again to stop. The MP4 is
    saved in Videos\NEXA Shot and copied — **Ctrl+V** to send it.
+5. **AI object cut-out** (0.6.0+): select an area → **Q** → click the object →
+   **Ctrl+C** copies it with a transparent background. Runs on the PC; the AI
+   model (~43 MB) downloads once on first use.
+6. **Ask AI** (0.6.0+): select an area → **I** → "What is it?", "Describe",
+   "Translate" or your own question. The image is sent to StarteeX's AI
+   assistant for the answer and is not stored.
